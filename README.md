@@ -1,14 +1,16 @@
 # Development Guide Documentation
 
-This repository contains source documentation for Hubzilla, OpenWebAuth, Neuhub, WisTex projects, and related technologies.
+This repository contains source documentation for Hubzilla, Neuhub, OpenWebAuth, WisTex projects, and related technologies.
 
 The repository serves as the canonical source for public-facing documentation. Documents may be published on one or more websites, including development.guide, neuhub.org, federatedhub.org, and future platforms.
 
 ## Purpose
 
-The goal of this repository is to create, maintain, and share useful technical documentation in a format that is easy to read, easy to update, and easy to republish.
+The goal of this repository is to capture, maintain, and share useful technical knowledge.
 
-Documentation should be created independently of any specific publishing platform. Authors should be able to create and maintain documentation without first deciding where it will be published.
+Documentation should be created independently of any specific publishing platform. The goal is to capture useful information while it is fresh and accurate, then publish it wherever it is most useful.
+
+Authors should be able to create and maintain documentation without first deciding where it will be published.
 
 ## Core Principles
 
@@ -36,15 +38,7 @@ Documentation should favor clear explanations, practical examples, and minimal a
 
 Where possible, documents should be understandable to both newcomers and experienced users.
 
-### Terminology
-
-This repository may occasionally use terminology that differs from official project documentation.
-
-The goal is not to replace official terminology, but to make concepts easier to understand for a broader audience.
-
-Where appropriate, documents may use more familiar terms alongside official terms. For example, a document may describe a Hubzilla "Connection" as "following" another channel when discussing public content and social networking concepts.
-
-Documentation should prioritize clarity and understanding while remaining technically accurate.
+Documentation may occasionally use terminology that differs from official project terminology when doing so improves clarity and understanding. The goal is not to replace official terminology, but to make concepts easier to understand while remaining technically accurate.
 
 ### Platform Independence
 
