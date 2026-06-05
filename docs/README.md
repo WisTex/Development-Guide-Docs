@@ -75,6 +75,11 @@ to separate major sections of a document.
 
 Do not place horizontal rules between every heading. Horizontal rules should be reserved for major transitions within the document.
 
+## Cross References
+
+Documents should be understandable on their own, but may reference related documents when appropriate.
+
+Cross references can help connect related concepts and reduce unnecessary duplication.
 
 ## Version History
 
@@ -102,6 +107,16 @@ Version History entries should briefly describe significant changes to the docum
 ## Version Numbering
 
 Documents use a three-level version numbering system.
+
+### When to Change the Version Number
+
+Version numbers are intended to represent published or distributed revisions of a document.
+
+Routine editing, drafting, research, and work-in-progress changes do not normally require a version change.
+
+The version number should be updated when a new revision of the document is considered complete and ready for publication, distribution, or general use.
+
+A version number does not need to be changed for every edit, save, or Git commit.
 
 ### First Number
 
@@ -154,4 +169,4 @@ However, the version number should still be updated in the document metadata and
 
 The Markdown files in this directory are the authoritative versions of all documentation.
 
-Published HTML pages, wiki pages, CMS content, and generated formats should be considered derived works generated from these source documents.
+Published HTML pages, wiki pages, CMS content, and other generated formats should be considered published versions generated from these source documents.
