@@ -16,7 +16,7 @@ The documents in this repository are maintained independently of any specific pu
 
 The Markdown documents stored in this repository are the authoritative versions of the documentation.
 
-Published websites, wiki pages, generated HTML, and other formats are considered derived publications generated from these source documents.
+Published HTML pages, wiki pages, CMS content, and other generated formats should be considered published versions generated from these source documents.
 
 ## Reuse and Redistribution
 
