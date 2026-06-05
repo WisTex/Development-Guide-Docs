@@ -2,7 +2,7 @@
 
 This directory contains source documentation files.
 
-Each document should be self-contained and suitable for publication on multiple websites.
+Each document should be understandable on its own and suitable for publication on one or more websites.
 
 ## Writing for Humans
 
