@@ -2,7 +2,7 @@
 
 title: "Writing Ideas Are Not Backlogs"
 slug: "writing-ideas-are-not-backlogs"
-version: "1.0"
+version: "1.1"
 status: "draft"
 category: "Knowledge Management"
 author: "Scott M. Stolz"
@@ -161,6 +161,36 @@ An idea can be:
 * Expanded into a larger project
 
 Its value is not dependent on immediate execution.
+
+## Writing Ideas Improve Team Efficiency
+
+Writing idea collections provide benefits beyond simply preserving opportunities for future content.
+
+They also help teams work more efficiently.
+
+In many organizations, urgent documentation work naturally takes priority. However, there are often periods when writers have additional capacity and can take on non-urgent projects.
+
+A well-maintained collection of writing ideas provides a pool of potential work that can be selected based on the strengths, interests, and knowledge of individual team members.
+
+This creates several advantages:
+
+* Writers can select topics they already understand.
+* Less research may be required before writing begins.
+* Documentation can often be produced more quickly.
+* Subject matter expertise can be utilized more effectively.
+* Similar topics can be written together while the information is fresh.
+
+For example, a writer who recently researched a feature may be able to create several related documents in less time than it would take another writer to learn the topic from the beginning.
+
+Writing idea collections also support collaborative planning.
+
+Team leads can review available opportunities, discuss priorities, and allow team members to volunteer for topics that align with their knowledge and interests.
+
+This often produces better results than assigning topics randomly.
+
+The goal is not simply to complete documentation tasks.
+
+The goal is to match knowledge opportunities with the people most capable of turning them into high-quality knowledge assets.
 
 ## The Role of Knowledge Management
 
