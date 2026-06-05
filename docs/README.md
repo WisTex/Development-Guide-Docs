@@ -38,19 +38,13 @@ Documentation related to Hubzilla, addons, themes, development, and ecosystem co
 
 Documentation related to OpenWebAuth, federated identity, authentication, and interoperability.
 
-* [OpenWebAuth Directory](openwebauth/) - Coming Soon
+* [OpenWebAuth Directory](openwebauth/)
 
 ### Neuhub
 
 Documentation related to Neuhub themes, addons, widgets, and related projects.
 
-* [Neuhub Directory](neuhub/) - Coming Soon
-
-### WisTex
-
-Documentation related to WisTex projects, products, and initiatives.
-
-* [WisTex Directory](wistex/) - Coming Soon
+* [Neuhub Directory](neuhub/)
 
 ## Notes
 
