@@ -2,13 +2,13 @@
 
 title: "Knowledge Management vs Development Management"
 slug: "knowledge-management-vs-development-management"
-version: "1.0"
+version: "1.1"
 status: "draft"
 category: "Knowledge Management"
 author: "Scott M. Stolz"
 license: "MIT"
 copyright: "WisTex TechSero Ltd. Co."
-tags: ["Knowledge Management", "Documentation", "Technical Communication", "Development", "KIMS"]
+tags: ["Knowledge Management", "Documentation", "Technical Communication", "Development", "WisTex KIMS"]
 
 ---
 
@@ -26,7 +26,31 @@ Knowledge work and development work serve different purposes, follow different l
 
 The goal is not to separate these disciplines completely. Instead, the goal is to recognize their differences while allowing them to work together.
 
----
+## Different Perspectives
+
+Developers, writers, editors, and technical communicators often view the same work differently.
+
+Developers naturally focus on:
+
+* Features
+* Infrastructure
+* Releases
+* Defects
+* Technical debt
+
+Technical communicators naturally focus on:
+
+* Discoverability
+* Clarity
+* Onboarding
+* Support reduction
+* Knowledge preservation
+
+Neither perspective is wrong.
+
+Both are necessary.
+
+The challenge is recognizing that different goals often require different workflows.
 
 ## Development Produces Software
 
@@ -52,8 +76,6 @@ Development systems are typically optimized around concepts such as:
 * Technical debt
 
 The primary output of Development Management is working software.
-
----
 
 ## Knowledge Management Produces Understanding
 
@@ -82,8 +104,6 @@ Knowledge systems are typically optimized around concepts such as:
 
 The primary output of Knowledge Management is understanding.
 
----
-
 ## Different Problems, Different Workflows
 
 Although software development and knowledge management often support the same projects, they solve different problems.
@@ -105,25 +125,19 @@ Knowledge Management asks:
 
 These questions require different workflows and different priorities.
 
----
-
 ## Documentation Is Not a Bug Tracker
 
 One common mistake is treating documentation work as if it were software development work.
 
-For example:
-
 A development team may view a list of one hundred proposed documentation improvements as an overwhelming backlog that must be reduced, prioritized, or eliminated.
 
-A technical communicator may view the same list as a valuable collection of writing opportunities, future improvements, and potential knowledge assets.
+A technical communicator may view the same list as a valuable collection of future improvements, clarifications, article ideas, and opportunities to improve understanding.
 
 The same information is interpreted differently because the goals are different.
 
 A backlog represents unfinished development work.
 
-A collection of writing ideas represents future opportunities to improve understanding.
-
----
+Documentation opportunities represent potential improvements to knowledge.
 
 ## Knowledge Assets Have Long Lifecycles
 
@@ -145,41 +159,30 @@ over many years.
 
 Knowledge work is often iterative and continuous.
 
-The value of a document frequently increases over time as it accumulates improvements and becomes more widely referenced.
+The value of a document frequently increases over time as it accumulates improvements, references, and historical context.
 
 For this reason, Knowledge Management systems should treat publications as living assets rather than completed tasks.
-
----
 
 ## Integration Without Convergence
 
 Knowledge Management and Development Management should exchange information without becoming the same system.
 
+Documentation may begin before development, during development, or after release.
+
 For example:
 
-```text
-Feature Request
-    ↓
-Development Task
-    ↓
-Feature Released
-    ↓
-Documentation Request
-    ↓
-Article Published
-    ↓
-Newsletter Entry
-```
+* A planned feature may create a future documentation need.
+* A feature in development may require draft documentation before release.
+* A released feature may require tutorials, examples, or follow-up articles.
+* A support pattern may reveal that existing documentation needs clarification.
 
-In this workflow:
+In each case:
 
 * Development systems manage software.
 * Knowledge systems manage understanding.
 * Information flows between them.
 
 Neither system replaces the other.
-
----
 
 ## The Role of Technical Communicators
 
@@ -202,8 +205,6 @@ These activities require different skills and different perspectives than softwa
 
 Both disciplines are valuable, but they should not be assumed to be interchangeable.
 
----
-
 ## Why This Matters
 
 Organizations that invest heavily in software while neglecting knowledge often face predictable problems:
@@ -223,8 +224,6 @@ Software creates capabilities.
 Knowledge creates understanding.
 
 Both are necessary.
-
----
 
 ## Conclusion
 
