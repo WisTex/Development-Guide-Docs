@@ -2,49 +2,27 @@
 
 This repository contains source documentation for Hubzilla, Neuhub, OpenWebAuth, WisTex projects, and related technologies.
 
-The repository serves as the canonical source for public-facing documentation. Documents may be published on one or more websites, including development.guide, neuhub.org, federatedhub.org, and future platforms.
+The repository serves as the canonical source for documentation that may be published on one or more websites, including development.guide, neuhub.org, federatedhub.org, and future platforms.
 
-## Purpose
+## Why This Repository Exists
 
-The goal of this repository is to capture, maintain, and share useful technical knowledge.
+Technical knowledge is often discovered while working on a project, solving a problem, or researching a topic. If that information is not captured while it is fresh, it can be forgotten, lost in chat logs, buried in forum discussions, or require rediscovery later.
 
-Documentation should be created independently of any specific publishing platform. The goal is to capture useful information while it is fresh and accurate, then publish it wherever it is most useful.
+This repository provides a central place to capture and maintain that knowledge as it is discovered.
 
-Authors should be able to create and maintain documentation without first deciding where it will be published.
+The documents in this repository are maintained independently of any specific publishing platform. Documentation can be written, updated, and reviewed without first deciding where it will eventually be published.
 
-## Core Principles
+## Source of Truth
 
-### Source of Truth
+The Markdown documents stored in this repository are the authoritative versions of the documentation.
 
-The documents in this repository are the authoritative source versions.
+Published websites, wiki pages, generated HTML, and other formats are considered derived publications generated from these source documents.
 
-Published websites, wiki pages, CMS content, generated HTML, and other formats should be considered derived publications.
+## Reuse and Redistribution
 
-### Documentation First, Publishing Second
+The repository uses the MIT License to encourage sharing, reuse, adaptation, and redistribution.
 
-Documentation should be created and maintained independently of any particular website, application, or publishing system.
-
-Publishing decisions should not create barriers to documenting useful knowledge.
-
-### Reuse and Redistribution
-
-Documents are intended to be shared, reused, adapted, and republished.
-
-The goal is to encourage the spread of useful technical knowledge rather than restrict its distribution.
-
-### Clear Communication
-
-Documentation should favor clear explanations, practical examples, and minimal assumptions about prior knowledge.
-
-Where possible, documents should be understandable to both newcomers and experienced users.
-
-Documentation may occasionally use terminology that differs from official project terminology when doing so improves clarity and understanding. The goal is not to replace official terminology, but to make concepts easier to understand while remaining technically accurate.
-
-### Platform Independence
-
-The repository is independent of any specific website, CMS, wiki, or documentation platform.
-
-Documents may be published to one or more destinations while remaining maintained in a single location.
+Documentation may be incorporated into websites, knowledge bases, project documentation, educational materials, and other resources, subject to the terms of the applicable license.
 
 ## Repository Structure
 
@@ -61,17 +39,36 @@ publishing-targets/
 
 ## Publishing Workflow
 
+The general workflow used by this repository is:
+
 1. Create or update a Markdown document.
 2. Commit changes to Git.
-3. Convert Markdown to the desired output format.
+3. Convert the document to the desired output format if needed.
 4. Publish to one or more destinations.
 5. Continue maintaining the source document in this repository.
+
+This workflow separates documentation from publication and allows documents to be maintained in a single location.
+
+## Publishing
+
+Documents may be published to one or more destinations while continuing to be maintained in a single location.
+
+This approach allows documentation to be written and updated once, then reused wherever it is useful.
+
+Potential publishing targets include:
+
+* development.guide
+* neuhub.org
+* federatedhub.org
+* project websites
+* knowledge bases
+* future publishing systems
 
 ## Licensing
 
 Unless otherwise specified, documentation in this repository is licensed under the MIT License.
 
-Individual documents may specify authorship, copyright ownership, and licensing information within their metadata.
+Individual documents may contain metadata describing authorship, copyright ownership, licensing information, version numbers, and related details.
 
 ## Contributing
 
