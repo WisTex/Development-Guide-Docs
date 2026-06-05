@@ -37,7 +37,7 @@ Some features may need to be enabled before the associated URLs become available
 
 ---
 
-# Communications
+## Communications
 
 | Feature           | URL Pattern           | Description                                       |
 | ----------------- | --------------------- | ------------------------------------------------- |
@@ -51,7 +51,7 @@ Some features may need to be enabled before the associated URLs become available
 
 ---
 
-# Contacts
+## Contacts
 
 | Feature             | URL Pattern            | Description                                       |
 | ------------------- | ---------------------- | ------------------------------------------------- |
@@ -61,7 +61,7 @@ Some features may need to be enabled before the associated URLs become available
 
 ---
 
-# Channel Features
+## Channel Features
 
 | Feature       | URL Pattern           | Description                                 |
 | ------------- | --------------------- | ------------------------------------------- |
@@ -74,7 +74,7 @@ Some features may need to be enabled before the associated URLs become available
 
 ---
 
-# Configuration
+## Configuration
 
 | Feature         | URL Pattern                       | Description                                              |
 | --------------- | --------------------------------- | -------------------------------------------------------- |
@@ -87,7 +87,7 @@ Some features may need to be enabled before the associated URLs become available
 
 ---
 
-# Networks
+## Networks
 
 Hubzilla supports multiple communication protocols and networks.
 
@@ -99,7 +99,7 @@ Hubzilla supports multiple communication protocols and networks.
 
 ---
 
-# Scope
+## Scope
 
 This document focuses on commonly used navigation links and URLs.
 
@@ -115,7 +115,7 @@ Those topics may be covered in separate documents.
 
 ---
 
-# Version History
+## Version History
 
 | Version | Date       | Notes            |
 | ------- | ---------- | ---------------- |
