@@ -1,3 +1,17 @@
+---
+
+title: "Documentation Standards"
+slug: "documentation-standards"
+version: "1.0"
+status: "published"
+category: "Standards"
+author: "Scott M. Stolz"
+license: "MIT"
+copyright: "WisTex TechSero Ltd. Co."
+tags: ["Documentation", "Standards", "Writing", "Publishing"]
+
+---
+
 # Documentation Standards
 
 This directory contains source documentation files.
@@ -12,10 +26,10 @@ When multiple formatting options produce the same result, prefer the one that is
 
 Examples include:
 
-- Aligning tables for readability
-- Using consistent spacing
-- Favoring clarity over compact formatting
-- Organizing content so it is easy to review and update
+* Aligning tables for readability
+* Using consistent spacing
+* Favoring clarity over compact formatting
+* Organizing content so it is easy to review and update
 
 ## Document Format
 
@@ -43,17 +57,17 @@ The metadata fields should appear in the order shown above for consistency.
 
 ## Required Metadata
 
-| Field      | Description                                       |
-| ---------- | ------------------------------------------------- |
-| title      | Human-readable document title                     |
-| slug       | URL-friendly identifier                           |
-| version    | Current document version                          |
-| status     | Publication status                                |
-| category   | Primary document category                         |
-| author     | Primary document author                           |
-| license    | Document license                                  |
-| copyright  | Copyright owner (organization or individual)      |
-| tags       | Search and classification tags                    |
+| Field     | Description                                  |
+| --------- | -------------------------------------------- |
+| title     | Human-readable document title                |
+| slug      | URL-friendly identifier                      |
+| version   | Current document version                     |
+| status    | Publication status                           |
+| category  | Primary document category                    |
+| author    | Primary document author                      |
+| license   | Document license                             |
+| copyright | Copyright owner (organization or individual) |
+| tags      | Search and classification tags               |
 
 ## Headings
 
