@@ -15,6 +15,8 @@ tags: ["Hubzilla", "Navigation", "Themes", "URLs"]
 
 Version: 1.0
 
+<hr>
+
 ## Purpose
 
 This document provides a reference for commonly used Hubzilla pages and URLs.
@@ -44,8 +46,6 @@ Some features may need to be enabled before the associated URLs become available
 | Comment History   | `/network/?f=&conv=1` | View posts and comments you have participated in. |
 | Direct Messages   | `/network/?f=&dm=1`   | View private conversations.                       |
 
-<hr>
-
 ## Contacts
 
 | Feature             | URL Pattern            | Description                                       |
@@ -53,8 +53,6 @@ Some features may need to be enabled before the associated URLs become available
 | Connections         | `/connections`         | Manage people and channels you follow.            |
 | Connection Requests | `/connections/pending` | Review pending connection requests.               |
 | Contact Roles       | `/permcats`            | Create groups of contacts and assign permissions. |
-
-<hr>
 
 ## Channel Features
 
@@ -67,8 +65,6 @@ Some features may need to be enabled before the associated URLs become available
 | Cloud Storage | `/cloud/[nickname]`   | View files, documents, and uploads.         |
 | Apps          | `/apps`               | Manage available applications and features. |
 
-<hr>
-
 ## Configuration
 
 | Feature         | URL Pattern                       | Description                                              |
@@ -79,8 +75,6 @@ Some features may need to be enabled before the associated URLs become available
 | Federation      | `/apps/available/?cat=Federation` | Manage federation-related applications and protocols.    |
 | Theme           | `/settings/display`               | Change appearance and theme settings.                    |
 | Manage Channels | `/manage`                         | Manage multiple channels (identities) under one account. |
-
-<hr>
 
 ## Networks
 
