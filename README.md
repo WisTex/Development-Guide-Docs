@@ -4,6 +4,24 @@ This repository contains source documentation for Hubzilla, Neuhub, OpenWebAuth,
 
 The repository serves as the canonical source for documentation that may be published on one or more websites, including development.guide, neuhub.org, federatedhub.org, and future platforms.
 
+## Documentation Library
+
+The primary entry point for documentation contained in this project is the Documentation Library.
+
+* [Documentation Library](docs/README.md)
+
+The Documentation Library provides access to documentation collections, framework documents, standards, and subject areas contained within this repository.
+
+Current subject areas include:
+
+* Knowledge Management
+* Documentation Standards
+* Hubzilla
+* OpenWebAuth
+* Neuhub
+
+Additional collections may be added over time as the repository grows.
+
 ## Why This Repository Exists
 
 Technical knowledge is often discovered while working on a project, solving a problem, or researching a topic. If that information is not captured while it is fresh, it can be forgotten, lost in chat logs, buried in forum discussions, or require rediscovery later.
