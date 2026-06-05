@@ -24,48 +24,48 @@ Together, these documents explore how knowledge is created, managed, preserved, 
 
 These documents introduce the core concepts of Knowledge Management.
 
-* [Knowledge Management vs Development Management](docs/documentation/knowledge-management-vs-development-management.md)
-* [The Knowledge Lifecycle](docs/documentation/the-knowledge-lifecycle.md)
-* [Documentation as Infrastructure](docs/documentation/documentation-as-infrastructure.md)
-* [The Role of the Technical Communicator](docs/documentation/the-role-of-the-technical-communicator.md)
+* [Knowledge Management vs Development Management](documentation/knowledge-management-vs-development-management.md)
+* [The Knowledge Lifecycle](documentation/the-knowledge-lifecycle.md)
+* [Documentation as Infrastructure](documentation/documentation-as-infrastructure.md)
+* [The Role of the Technical Communicator](documentation/the-role-of-the-technical-communicator.md)
 
 ## Knowledge Assets
 
 These documents focus on the creation, management, maintenance, and preservation of knowledge assets.
 
-* [Knowledge Assets vs Development Assets](docs/documentation/knowledge-assets-vs-development-assets.md)
-* [Documentation Debt](docs/documentation/documentation-debt.md)
-* [Knowledge Gaps](docs/documentation/knowledge-gaps.md)
+* [Knowledge Assets vs Development Assets](documentation/knowledge-assets-vs-development-assets.md)
+* [Documentation Debt](documentation/documentation-debt.md)
+* [Knowledge Gaps](documentation/knowledge-gaps.md)
 
 ## Knowledge Creation
 
 These documents focus on how ideas become knowledge assets.
 
-* [Writing Ideas Are Not Backlogs](docs/documentation/writing-ideas-are-not-backlogs.md)
-* [Use Precise Language, Not Repetitive Language](docs/documentation/use-precise-language-not-repetitive-language.md)
+* [Writing Ideas Are Not Backlogs](documentation/writing-ideas-are-not-backlogs.md)
+* [Use Precise Language, Not Repetitive Language](documentation/use-precise-language-not-repetitive-language.md)
 
 ## Knowledge Discovery
 
 These documents focus on helping people find and use information.
 
-* [Discoverability Matters](docs/documentation/discoverability-matters.md)
-* [Federated Knowledge Management](docs/documentation/federated-knowledge-management.md)
+* [Discoverability Matters](documentation/discoverability-matters.md)
+* [Federated Knowledge Management](documentation/federated-knowledge-management.md)
 
 ## Recommended Reading Order
 
 Readers who are new to Knowledge Management may find the following reading order helpful:
 
-1. [Knowledge Management vs Development Management](docs/documentation/knowledge-management-vs-development-management.md)
-2. [The Knowledge Lifecycle](docs/documentation/the-knowledge-lifecycle.md)
-3. [Documentation as Infrastructure](docs/documentation/documentation-as-infrastructure.md)
-4. [The Role of the Technical Communicator](docs/documentation/the-role-of-the-technical-communicator.md)
-5. [Knowledge Assets vs Development Assets](docs/documentation/knowledge-assets-vs-development-assets.md)
-6. [Documentation Debt](docs/documentation/documentation-debt.md)
-7. [Knowledge Gaps](docs/documentation/knowledge-gaps.md)
-8. [Writing Ideas Are Not Backlogs](docs/documentation/writing-ideas-are-not-backlogs.md)
-9. [Discoverability Matters](docs/documentation/discoverability-matters.md)
-10. [Federated Knowledge Management](docs/documentation/federated-knowledge-management.md)
-11. [Use Precise Language, Not Repetitive Language](docs/documentation/use-precise-language-not-repetitive-language.md)
+1. [Knowledge Management vs Development Management](documentation/knowledge-management-vs-development-management.md)
+2. [The Knowledge Lifecycle](documentation/the-knowledge-lifecycle.md)
+3. [Documentation as Infrastructure](documentation/documentation-as-infrastructure.md)
+4. [The Role of the Technical Communicator](documentation/the-role-of-the-technical-communicator.md)
+5. [Knowledge Assets vs Development Assets](documentation/knowledge-assets-vs-development-assets.md)
+6. [Documentation Debt](documentation/documentation-debt.md)
+7. [Knowledge Gaps](documentation/knowledge-gaps.md)
+8. [Writing Ideas Are Not Backlogs](documentation/writing-ideas-are-not-backlogs.md)
+9. [Discoverability Matters](documentation/discoverability-matters.md)
+10. [Federated Knowledge Management](documentation/federated-knowledge-management.md)
+11. [Use Precise Language, Not Repetitive Language](documentation/use-precise-language-not-repetitive-language.md)
 
 ## About These Documents
 
