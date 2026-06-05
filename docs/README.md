@@ -26,6 +26,8 @@ tags: ["Tag1", "Tag2"]
 ---
 ```
 
+The metadata fields should appear in the order shown above for consistency.
+
 ## Required Metadata
 
 | Field      | Description                                       |
@@ -39,6 +41,21 @@ tags: ["Tag1", "Tag2"]
 | license    | Document license                                  |
 | copyright  | Copyright owner (organization or individual)      |
 | tags       | Search and classification tags                    |
+
+## Source Readability
+
+Documentation should be formatted for readability in both rendered form and source form.
+
+When multiple Markdown formats produce the same rendered output, prefer the format that is easier for humans to read and maintain in the raw Markdown source.
+
+Examples include:
+
+- Aligning table columns for readability
+- Using consistent spacing
+- Favoring clear formatting over compact formatting
+- Organizing content to make editing and review easier
+
+Git repositories, pull requests, and code reviews often involve reading the Markdown source directly. Source readability is therefore considered part of the documentation quality.
 
 ## Headings
 
@@ -60,6 +77,7 @@ to separate major sections of a document.
 
 Do not place horizontal rules between every heading. Horizontal rules should be reserved for major transitions within the document.
 
+
 ## Version History
 
 Documents should contain a Version History section near the end of the document.
@@ -67,6 +85,21 @@ Documents should contain a Version History section near the end of the document.
 The YAML version field represents the current version.
 
 The Version History section provides the historical record of document changes.
+
+### Example
+
+```markdown
+## Version History
+
+| Version | Date       | Notes                              |
+| ------- | ---------- | ---------------------------------- |
+| 1.1     | 2026-06-10 | Added publishing workflow section. |
+| 1.0     | 2026-06-05 | Initial release.                   |
+```
+
+The newest version should appear first.
+
+Version History entries should briefly describe significant changes to the document.
 
 ## Source of Truth
 
