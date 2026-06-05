@@ -103,51 +103,52 @@ Version History entries should briefly describe significant changes to the docum
 
 Documents use a three-level version numbering system.
 
-### Major Versions
+### First Number
 
 Examples:
 
-* 1.0 → 2.0
-* 2.0 → 3.0
+* 1.0
+* 2.0
+* 3.0
 
-Major versions indicate significant changes to the document, such as:
+Increase the first number when a document undergoes significant changes, such as:
 
 * Major rewrites
 * Significant restructuring
 * Large additions of content
 * Major corrections that substantially change the meaning of the document
 
-### Minor Versions
+### Second Number
 
 Examples:
 
 * 1.0 → 1.1
 * 1.1 → 1.2
 
-Minor versions indicate smaller content updates, such as:
+Increase the second number for smaller content updates, such as:
 
 * Clarifications
 * Additional examples
 * Small additions of information
 * Minor corrections that do not substantially change the document
 
-### Revision Versions
+### Third Number
 
 Examples:
 
 * 1.1 → 1.1.1
 * 1.1.1 → 1.1.2
 
-Revision versions indicate cosmetic updates, such as:
+Increase the third number for cosmetic updates, such as:
 
 * Typographical corrections
 * Grammar fixes
 * Formatting improvements
 * Minor wording changes that do not affect meaning
 
-Revision versions should be reflected in both the document metadata and the document itself.
+Changes that only affect the third number do not normally need to be recorded in the Version History table.
 
-Revision versions generally do not need to be recorded in the Version History table unless the change is significant enough to warrant documentation.
+However, the version number should still be updated in the document metadata and elsewhere within the document when applicable.
 
 ## Source of Truth
 
