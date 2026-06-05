@@ -18,8 +18,9 @@ slug: "document-slug"
 version: "1.0"
 status: "unpublished"
 category: "Category"
-license: "MIT"
 author: "Author Name"
+license: "MIT"
+copyright: "Organization Name or Author Name"
 tags: ["Tag1", "Tag2"]
 
 ---
