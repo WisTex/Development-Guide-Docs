@@ -7,6 +7,7 @@ status: "unpublished"
 category: "Hubzilla"
 license: "MIT"
 author: "Scott M. Stolz"
+copyright: "WisTex TechSero Ltd. Co."
 tags: ["Hubzilla", "Navigation", "Themes", "URLs"]
 
 ---
