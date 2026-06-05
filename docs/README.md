@@ -28,16 +28,19 @@ tags: ["Tag1", "Tag2"]
 
 ## Required Metadata
 
-| Field    | Description                    |
-| -------- | ------------------------------ |
-| title    | Human-readable document title  |
-| slug     | URL-friendly identifier        |
-| version  | Current document version       |
-| status   | Publication status             |
-| category | Primary document category      |
-| license  | Document license               |
-| author   | Primary author                 |
-| tags     | Search and classification tags |
+## Required Metadata
+
+| Field | Description |
+|----------|----------|
+| title | Human-readable document title |
+| slug | URL-friendly identifier |
+| version | Current document version |
+| status | Publication status |
+| category | Primary document category |
+| author | Primary document author |
+| license | Document license |
+| copyright | Copyright owner (organization or individual) |
+| tags | Search and classification tags |
 
 ## Headings
 
