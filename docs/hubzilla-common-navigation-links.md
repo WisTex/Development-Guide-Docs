@@ -1,18 +1,13 @@
 ---
 
-title: Hubzilla Common Navigation Links Reference
-slug: hubzilla-common-navigation-links
-version: 1.0
-status: unpublished
-category: Hubzilla
-license: MIT
-author: Scott M. Stolz
-tags:
-
-* Hubzilla
-* Navigation
-* Themes
-* URLs
+title: "Hubzilla Common Navigation Links Reference"
+slug: "hubzilla-common-navigation-links"
+version: "1.0"
+status: "unpublished"
+category: "Hubzilla"
+license: "MIT"
+author: "Scott M. Stolz"
+tags: ["Hubzilla", "Navigation", "Themes", "URLs"]
 
 ---
 
@@ -35,7 +30,7 @@ Hubzilla themes can completely replace the default navigation. This reference he
 
 Some features may need to be enabled before the associated URLs become available. Availability may depend on site configuration, installed applications, channel permissions, or enabled features.
 
----
+<hr>
 
 ## Communications
 
@@ -49,7 +44,7 @@ Some features may need to be enabled before the associated URLs become available
 | Comment History   | `/network/?f=&conv=1` | View posts and comments you have participated in. |
 | Direct Messages   | `/network/?f=&dm=1`   | View private conversations.                       |
 
----
+<hr>
 
 ## Contacts
 
@@ -59,7 +54,7 @@ Some features may need to be enabled before the associated URLs become available
 | Connection Requests | `/connections/pending` | Review pending connection requests.               |
 | Contact Roles       | `/permcats`            | Create groups of contacts and assign permissions. |
 
----
+<hr>
 
 ## Channel Features
 
@@ -72,7 +67,7 @@ Some features may need to be enabled before the associated URLs become available
 | Cloud Storage | `/cloud/[nickname]`   | View files, documents, and uploads.         |
 | Apps          | `/apps`               | Manage available applications and features. |
 
----
+<hr>
 
 ## Configuration
 
@@ -85,7 +80,7 @@ Some features may need to be enabled before the associated URLs become available
 | Theme           | `/settings/display`               | Change appearance and theme settings.                    |
 | Manage Channels | `/manage`                         | Manage multiple channels (identities) under one account. |
 
----
+<hr>
 
 ## Networks
 
@@ -97,7 +92,7 @@ Hubzilla supports multiple communication protocols and networks.
 | Diaspora    | `/diaspora` | Connect with the Diaspora network.                                                          |
 | Zot Network | Built In    | Connect with Hubzilla and Streams users through Hubzilla's native federation network.       |
 
----
+<hr>
 
 ## Scope
 
@@ -113,7 +108,7 @@ It is not intended to document:
 
 Those topics may be covered in separate documents.
 
----
+<hr>
 
 ## Version History
 
