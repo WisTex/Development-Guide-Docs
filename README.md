@@ -36,6 +36,16 @@ Documentation should favor clear explanations, practical examples, and minimal a
 
 Where possible, documents should be understandable to both newcomers and experienced users.
 
+### Terminology
+
+This repository may occasionally use terminology that differs from official project documentation.
+
+The goal is not to replace official terminology, but to make concepts easier to understand for a broader audience.
+
+Where appropriate, documents may use more familiar terms alongside official terms. For example, a document may describe a Hubzilla "Connection" as "following" another channel when discussing public content and social networking concepts.
+
+Documentation should prioritize clarity and understanding while remaining technically accurate.
+
 ### Platform Independence
 
 The repository is independent of any specific website, CMS, wiki, or documentation platform.
