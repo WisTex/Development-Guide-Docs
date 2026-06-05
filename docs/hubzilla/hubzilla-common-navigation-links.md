@@ -5,8 +5,8 @@ slug: "hubzilla-common-navigation-links"
 version: "1.0"
 status: "unpublished"
 category: "Hubzilla"
-license: "MIT"
 author: "Scott M. Stolz"
+license: "MIT"
 copyright: "WisTex TechSero Ltd. Co."
 tags: ["Hubzilla", "Navigation", "Themes", "URLs"]
 
