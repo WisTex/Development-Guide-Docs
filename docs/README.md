@@ -12,13 +12,13 @@ The documents are organized into subject areas. Some subject areas have curated 
 
 Concepts and practices related to documentation, discoverability, technical communication, and Knowledge Management.
 
-* [Knowledge Management Framework](docs/knowledge-management-framework.md)
+* [Knowledge Management Framework](knowledge-management-framework.md)
 
 ## Standards
 
 Standards, conventions, and guidelines used for this repository and related publishing workflows.
 
-* [Documentation Standards](docs/documentation-standards.md)
+* [Documentation Standards](documentation-standards.md)
 
 ## Subject Areas
 
@@ -26,31 +26,31 @@ Standards, conventions, and guidelines used for this repository and related publ
 
 General documentation, writing, technical communication, and knowledge management source documents.
 
-* [Documentation Directory](docs/documentation/)
+* [Documentation Directory](documentation/)
 
 ### Hubzilla
 
 Documentation related to Hubzilla, addons, themes, development, and ecosystem concepts.
 
-* [Hubzilla Directory](docs/hubzilla/)
+* [Hubzilla Directory](hubzilla/)
 
 ### OpenWebAuth
 
 Documentation related to OpenWebAuth, federated identity, authentication, and interoperability.
 
-* [OpenWebAuth Directory](docs/openwebauth/)
+* [OpenWebAuth Directory](openwebauth/)
 
 ### Neuhub
 
 Documentation related to Neuhub themes, addons, widgets, and related projects.
 
-* [Neuhub Directory](docs/neuhub/)
+* [Neuhub Directory](neuhub/)
 
 ### WisTex
 
 Documentation related to WisTex projects, products, and initiatives.
 
-* [WisTex Directory](docs/wistex/)
+* [WisTex Directory](wistex/)
 
 ## Notes
 
