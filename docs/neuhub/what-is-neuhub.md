@@ -2,7 +2,7 @@
 
 title: "What Is Neuhub?"
 slug: "what-is-neuhub"
-version: "1.0"
+version: "1.0.1"
 status: "draft"
 category: "Neuhub"
 author: "Scott M. Stolz"
