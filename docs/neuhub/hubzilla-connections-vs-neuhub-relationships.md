@@ -2,7 +2,7 @@
 
 title: "Hubzilla Connections vs. Neuhub Relationships"
 slug: "hubzilla-connections-vs-neuhub-relationships"
-version: "1.0"
+version: "1.0.1"
 status: "unpublished"
 category: "Neuhub"
 author: "Scott M. Stolz"
