@@ -2,7 +2,7 @@
 
 title: "Scott's Documentation Standards"
 slug: "scott-documentation-standards"
-version: "1.0"
+version: "1.0.1"
 status: "draft"
 author: "Scott M. Stolz"
 license: "MIT"
@@ -28,7 +28,7 @@ tags: [documentation, standards, style-guide]
 
 # Scott's Documentation Standards
 
-Version 1.0 (Draft)
+Version 1.0
 
 ## Purpose
 
@@ -248,7 +248,7 @@ HTML should improve readability, not change meaning.
 
 ### Bootstrap Usage
 
-Bootstrap may be used to improve readability and presentation, when available.
+Bootstrap may be used, when available, to improve readability and presentation.
 
 Appropriate uses include:
 
