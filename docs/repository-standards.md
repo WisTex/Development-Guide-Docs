@@ -2,7 +2,7 @@
 
 title: "Repository Standards"
 slug: "repository-standards"
-version: "2.1"
+version: "2.2"
 status: "draft"
 author: "Scott M. Stolz"
 license: "MIT"
@@ -28,7 +28,7 @@ tags: [repository, standards, development-guide-docs]
 
 # Repository Standards
 
-Version 2.1
+Version 2.2
 
 ## Purpose
 
@@ -67,7 +67,7 @@ The source document is the authoritative version.
 
 ## Metadata Requirements
 
-All source documents should include metadata.
+Metadata is required for source documents in this repository, even when the metadata is not directly displayed in published versions.
 
 Metadata supports:
 
@@ -148,7 +148,7 @@ The document template contains the authoritative metadata structure.
 
 When creating new documents, start with the template and modify only the values that are specific to the new document.
 
-## voice_authenticity
+## Voice Authenticity
 
 The `voice_authenticity` field indicates how closely the final document reflects Scott M. Stolz's natural writing voice.
 
