@@ -2,7 +2,7 @@
 
 title: "Repository Standards"
 slug: "repository-standards"
-version: "2.0"
+version: "2.1"
 status: "draft"
 author: "Scott M. Stolz"
 license: "MIT"
@@ -28,7 +28,7 @@ tags: [repository, standards, development-guide-docs]
 
 # Repository Standards
 
-Version 1.0 (Draft)
+Version 2.1
 
 ## Purpose
 
@@ -116,6 +116,7 @@ The following example demonstrates the standard metadata structure used within t
 
 ```yaml
 ---
+
 title: "Document Title"
 slug: "document-title"
 version: "1.0"
@@ -139,6 +140,7 @@ disclosure_line: >-
   Drafted with AI assistance. Concepts, structure, and editing by Scott M. Stolz.
 
 tags: [documentation]
+
 ---
 ```
 
@@ -164,6 +166,20 @@ Common values include:
 This field describes voice alignment, not factual accuracy, authorship, or quality.
 
 ## YAML Formatting Rules
+
+### YAML Readability
+
+YAML should be formatted for human readability as well as machine processing.
+
+Preferred:
+
+```yaml
+---
+
+title: "Document Title"
+slug: "document-title"
+
+---
 
 ### Indentation
 
