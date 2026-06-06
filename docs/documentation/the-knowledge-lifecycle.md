@@ -2,7 +2,7 @@
 
 title: "The Knowledge Lifecycle"
 slug: "the-knowledge-lifecycle"
-version: "1.0"
+version: "1.0.1"
 status: "draft"
 category: "Knowledge Management"
 author: "Scott M. Stolz"
