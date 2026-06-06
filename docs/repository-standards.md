@@ -1,8 +1,8 @@
 ---
 
-title: "Documentation Standards"
-slug: "documentation-standards"
-version: "1.0"
+title: "Repository Standards"
+slug: "repository-standards"
+version: "1.0.1"
 status: "published"
 category: "Standards"
 author: "Scott M. Stolz"
