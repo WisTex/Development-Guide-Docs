@@ -2,7 +2,7 @@
 
 title: "Scott's Documentation Standards"
 slug: "scott-documentation-standards"
-version: "1.0.1"
+version: "2.0"
 status: "draft"
 author: "Scott M. Stolz"
 license: "MIT"
