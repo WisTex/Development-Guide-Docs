@@ -19,6 +19,7 @@ Concepts and practices related to documentation, discoverability, technical comm
 Standards, conventions, and guidelines used for this repository and related publishing workflows.
 
 * [Documentation Standards](documentation-standards.md)
+* [Scott's Style Guide](https://github.com/WisTex/Development-Guide-Docs/blob/main/style-guides/scott-writing-style-guide.md)
 
 ## Subject Areas
 
