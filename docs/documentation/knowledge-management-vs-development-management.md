@@ -2,7 +2,7 @@
 
 title: "Knowledge Management vs Development Management"
 slug: "knowledge-management-vs-development-management"
-version: "1.1"
+version: "1.1.1"
 status: "draft"
 category: "Knowledge Management"
 author: "Scott M. Stolz"
