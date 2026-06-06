@@ -2,9 +2,8 @@
 
 title: "Repository Standards"
 slug: "repository-standards"
-version: "1.0.1"
-status: "published"
-category: "Standards"
+version: "2.0"
+status: "draft"
 author: "Scott M. Stolz"
 license: "MIT"
 copyright: "WisTex TechSero Ltd. Co."
@@ -16,186 +15,295 @@ authorship:
   editing: "Scott M. Stolz"
   approval: "Scott M. Stolz"
 
-voice_authenticity: "high"
+voice_authenticity: "medium"
 
-use_for: [voice_modeling, portfolio, ai_guidance, documentation]
+use_for: [documentation, repository_management, ai_guidance]
 
 disclosure_line: >-
   Drafted with AI assistance. Concepts, structure, and editing by Scott M. Stolz.
 
-tags: ["Documentation", "Standards", "Writing", "Publishing"]
+tags: [repository, standards, development-guide-docs]
 
 ---
 
-# Documentation Standards
+# Repository Standards
 
-This directory contains source documentation files.
+Version 1.0 (Draft)
 
-Each document should be understandable on its own and suitable for publication on one or more websites.
+## Purpose
 
-## Writing for Humans
+This document defines repository-specific standards for the Development Guide Docs repository.
 
-Documentation should be easy to read both on published websites and in the Markdown files stored in this repository.
+These standards govern:
 
-When multiple formatting options produce the same result, prefer the one that is easier for humans to read and maintain.
+* document organization
+* metadata requirements
+* file structure
+* formatting conventions
+* publication workflows
+* repository maintenance
 
-Examples include:
+This document supplements, but does not replace:
 
-* Aligning tables for readability
-* Using consistent spacing
-* Favoring clarity over compact formatting
-* Organizing content so it is easy to review and update
+* Scott's Writing Style Guide
+* Scott's Documentation Standards
+* Scott's Metadata Standards, when available
 
-## Document Format
+Repository-specific requirements take precedence within this repository.
 
-Documents should be written in Markdown and begin with YAML front matter.
+## Source Documents
+
+Markdown files stored in this repository are considered source documents.
+
+Published HTML pages, wiki pages, CMS content, PDFs, and other generated formats should be considered derived works generated from these source documents.
+
+Whenever practical:
+
+* edit source documents
+* generate published formats from source documents
+* avoid maintaining multiple independent versions of the same content
+
+The source document is the authoritative version.
+
+## Metadata Requirements
+
+All source documents should include metadata.
+
+Metadata supports:
+
+* discovery
+* organization
+* automation
+* publishing workflows
+* AI-assisted systems
+
+In this repository, metadata is stored using YAML front matter.
+
+YAML is an implementation detail of this repository.
+
+The metadata model is more important than the storage format.
+
+Future systems may store the same metadata using databases, APIs, JSON documents, or other formats.
+
+## Document Template
+
+This repository includes a canonical document template.
+
+Location:
+
+```text
+templates/document-template.md
+```
+
+When creating new documents, use the document template as the starting point.
+
+The template defines:
+
+* metadata structure
+* field order
+* indentation requirements
+* array formatting
+* disclosure formatting
+* authorship formatting
+
+The template is the authoritative source for document metadata formatting.
+
+When the template and this document appear to conflict, the template takes precedence.
+
+## Metadata Example
+
+The following example demonstrates the standard metadata structure used within this repository.
+
+```yaml
+---
+title: "Document Title"
+slug: "document-title"
+version: "1.0"
+status: "draft"
+author: "Scott M. Stolz"
+license: "MIT"
+copyright: "WisTex TechSero Ltd. Co."
+
+authorship:
+  concepts: "Scott M. Stolz"
+  structure: "Scott M. Stolz"
+  drafting: "AI-assisted"
+  editing: "Scott M. Stolz"
+  approval: "Scott M. Stolz"
+
+voice_authenticity: "medium"
+
+use_for: [documentation, ai_guidance, knowledge_management, voice_modeling]
+
+disclosure_line: >-
+  Drafted with AI assistance. Concepts, structure, and editing by Scott M. Stolz.
+
+tags: [documentation]
+---
+```
+
+The document template contains the authoritative metadata structure.
+
+When creating new documents, start with the template and modify only the values that are specific to the new document.
+
+## voice_authenticity
+
+The `voice_authenticity` field indicates how closely the final document reflects Scott M. Stolz's natural writing voice.
+
+This field is intended to help both humans and AI systems understand the relationship between the published document and Scott's personal communication style.
+
+Common values include:
+
+| Value     | Meaning                                                                                                                     |
+| --------- | --------------------------------------------------------------------------------------------------------------------------- |
+| low       | Primarily informational or technical. Little effort was made to match Scott's writing voice.                                |
+| medium    | Reflects some characteristics of Scott's writing style, but prioritizes clarity, structure, or neutrality.                  |
+| high      | Strongly reflects Scott's preferred writing style, tone, and communication patterns.                                        |
+| very_high | Intended to closely match Scott's personal voice and writing style. Typically requires significant human editing or review. |
+
+This field describes voice alignment, not factual accuracy, authorship, or quality.
+
+## YAML Formatting Rules
+
+### Indentation
+
+Nested fields must be indented using two spaces.
 
 Example:
 
 ```yaml
----
-
-title: "Document Title"
-slug: "document-slug"
-version: "1.0"
-status: "unpublished"
-category: "Category"
-author: "Author Name"
-license: "MIT"
-copyright: "Organization Name or Author Name"
-tags: ["Tag1", "Tag2"]
-
----
+authorship:
+  concepts: "Scott M. Stolz"
+  structure: "Scott M. Stolz"
+  drafting: "AI-assisted"
+  editing: "Scott M. Stolz"
+  approval: "Scott M. Stolz"
 ```
 
-The metadata fields should appear in the order shown above for consistency.
+Continuation lines following `>-` must also be indented using two spaces.
 
-## Required Metadata
+Example:
 
-| Field     | Description                                  |
-| --------- | -------------------------------------------- |
-| title     | Human-readable document title                |
-| slug      | URL-friendly identifier                      |
-| version   | Current document version                     |
-| status    | Publication status                           |
-| category  | Primary document category                    |
-| author    | Primary document author                      |
-| license   | Document license                             |
-| copyright | Copyright owner (organization or individual) |
-| tags      | Search and classification tags               |
-
-## Headings
-
-Use a single H1 heading for the document title.
-
-Use H2 headings for major sections.
-
-Additional heading levels may be used when appropriate.
-
-## Horizontal Rules
-
-Use:
-
-```html
-<hr>
+```yaml
+disclosure_line: >-
+  Drafted with AI assistance. Concepts, structure, and editing by Scott M. Stolz.
 ```
 
-to separate major sections of a document.
+Improper indentation may cause parsing failures.
 
-Do not place horizontal rules between every heading. Horizontal rules should be reserved for major transitions within the document.
+### Arrays
 
-## Cross References
+Use flow-style arrays.
 
-Documents should be understandable on their own, but may reference related documents when appropriate.
+Example:
 
-Cross references can help connect related concepts and reduce unnecessary duplication.
-
-## Version History
-
-Documents should contain a Version History section near the end of the document.
-
-The YAML version field represents the current version.
-
-The Version History section provides the historical record of document changes.
-
-### Example
-
-```markdown
-## Version History
-
-| Version | Date       | Notes                              |
-| ------- | ---------- | ---------------------------------- |
-| 1.1     | 2026-06-10 | Added publishing workflow section. |
-| 1.0     | 2026-06-05 | Initial release.                   |
+```yaml
+use_for: [documentation, ai_guidance, knowledge_management, voice_modeling]
 ```
 
-The newest version should appear first.
+Example:
 
-Version History entries should briefly describe significant changes to the document.
+```yaml
+tags: [documentation, standards]
+```
 
-## Version Numbering
+Do not use block-style arrays.
 
-Documents use a three-level version numbering system.
+```yaml
+tags:
+  - documentation
+  - standards
+```
 
-### When to Change the Version Number
+Although block-style arrays are valid YAML, this repository standardizes on flow-style arrays for consistency and compatibility.
 
-Version numbers are intended to represent published or distributed revisions of a document.
+### Field Order
 
-Routine editing, drafting, research, and work-in-progress changes do not normally require a version change.
+Maintain the field order defined by the document template.
 
-The version number should be updated when a new revision of the document is considered complete and ready for publication, distribution, or general use.
+Consistency improves:
 
-A version number does not need to be changed for every edit, save, or Git commit.
+* readability
+* maintenance
+* automation
+* AI processing
 
-### First Number
+Avoid unnecessary variation.
 
-Examples:
+## Repository Organization
 
-* 1.0
-* 2.0
-* 3.0
+Repository content should be organized according to purpose.
 
-Increase the first number when a document undergoes significant changes, such as:
+Examples include:
 
-* Major rewrites
-* Significant restructuring
-* Large additions of content
-* Major corrections that substantially change the meaning of the document
+* articles
+* style guides
+* reference materials
+* repository documentation
+* templates
 
-### Second Number
+Documents should be placed in the most appropriate location based on their purpose.
 
-Examples:
+## Style Guides
 
-* 1.0 → 1.1
-* 1.1 → 1.2
+Documents within the `style-guides` directory define preferred standards and methodologies.
 
-Increase the second number for smaller content updates, such as:
+Examples include:
 
-* Clarifications
-* Additional examples
-* Small additions of information
-* Minor corrections that do not substantially change the document
+* writing standards
+* documentation standards
+* metadata standards
+* voice guides
 
-### Third Number
+These documents define guidance rather than repository structure.
 
-Examples:
+## Repository Documentation
 
-* 1.1 → 1.1.1
-* 1.1.1 → 1.1.2
+Documents within the `docs` directory describe repository-specific requirements and workflows.
 
-Increase the third number for cosmetic updates, such as:
+Examples include:
 
-* Typographical corrections
-* Grammar fixes
-* Formatting improvements
-* Minor wording changes that do not affect meaning
+* repository standards
+* publishing workflows
+* repository structure
+* contributor information
 
-Changes that only affect the third number do not normally need to be recorded in the Version History table.
+These documents explain how the repository operates.
 
-However, the version number should still be updated in the document metadata and elsewhere within the document when applicable.
+## Source Readability
 
-## Source of Truth
+Source documents should remain easy for humans to read and maintain.
 
-The Markdown files in this directory are the authoritative versions of all documentation.
+Prefer:
 
-Published HTML pages, wiki pages, CMS content, and other generated formats should be considered published versions generated from these source documents.
+* readable Markdown
+* consistent spacing
+* descriptive headings
+* logical organization
+
+The source document is part of the documentation experience.
+
+## AI Usage
+
+AI-assisted drafting is permitted and encouraged.
+
+However:
+
+* human review remains important
+* factual accuracy should be verified
+* repository standards should be followed
+* style guides should be respected
+
+AI should assist authors rather than replace editorial judgment.
+
+## Preferred Outcome
+
+This repository should serve as a high-quality source of documentation that is:
+
+* easy to maintain
+* easy to publish
+* easy to discover
+* easy for humans to understand
+* easy for AI systems to process
+
+The repository should function as a long-term knowledge asset rather than a collection of unrelated documents.
