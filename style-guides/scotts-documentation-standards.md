@@ -1,7 +1,7 @@
 ---
 
-title: "Documentation Standards"
-slug: "documentation-standards"
+title: "Scott's Documentation Standards"
+slug: "scott-documentation-standards"
 version: "1.0"
 status: "draft"
 author: "Scott M. Stolz"
@@ -17,53 +17,55 @@ authorship:
 
 voice_authenticity: "high"
 
-use_for: [documentation, ai_guidance, knowledge_management]
+use_for: [documentation, ai_guidance, knowledge_management, voice_modeling]
 
 disclosure_line: >-
   Drafted with AI assistance. Concepts, structure, and editing by Scott M. Stolz.
 
-tags: [documentation, standards, formatting]
+tags: [documentation, standards, style-guide]
 
 ---
 
-# Test
-
-# Documentation Standards
+# Scott's Documentation Standards
 
 Version 1.0 (Draft)
 
 ## Purpose
 
-This document defines standards for organizing, formatting, publishing, and maintaining documentation.
+This document defines Scott M. Stolz's preferred standards for organizing, formatting, publishing, and maintaining documentation.
 
-The goal is to create documentation that is:
+These standards reflect a documentation philosophy that emphasizes:
 
-* easy to read
-* easy to navigate
-* easy to maintain
-* easy to update
-* useful to both humans and AI systems
+* readability
+* maintainability
+* skimmability
+* consistency
+* long-term usability
 
-These standards are platform-independent and may be applied to repositories, websites, wikis, knowledge bases, applications, and other documentation systems.
+These standards are intended to guide documentation created by Scott M. Stolz, AI systems working on his behalf, and projects that choose to adopt these standards.
+
+This document is not intended to define universal documentation standards.
+
+Many valid documentation approaches exist. These standards represent a specific philosophy and workflow.
 
 ## Human Readability Comes First
 
 Documentation exists to communicate information.
 
-Source documents should be optimized for human readability and maintainability.
+Formatting decisions should prioritize readability and maintainability.
 
 Prefer:
 
 * clear formatting
 * predictable structure
-* consistent organization
-* readable source files
+* logical organization
+* readable source documents
 
 Avoid:
 
-* compressed formatting
 * unnecessary complexity
-* structures that are difficult to edit manually
+* compressed formatting
+* structures that are difficult to maintain
 
 Documentation is often maintained for years. Future maintainers should be able to understand and modify it efficiently.
 
@@ -74,9 +76,9 @@ Most readers scan before they read.
 Documentation should allow readers to:
 
 * determine relevance quickly
-* locate specific information
+* locate information efficiently
 * understand document structure
-* return later and find information efficiently
+* return later and find information again
 
 Support skimmability through:
 
@@ -86,7 +88,6 @@ Support skimmability through:
 * short paragraphs
 * lists where appropriate
 * tables when beneficial
-* clear section boundaries
 
 Readers should be able to understand the structure of a document before reading every word.
 
@@ -96,6 +97,8 @@ Headings are navigation tools.
 
 Headings should describe content rather than create curiosity.
 
+Readers should be able to understand the structure of a document by scanning its headings.
+
 Prefer:
 
 > Identity Cloning and Redundancy
@@ -103,8 +106,6 @@ Prefer:
 Over:
 
 > A Powerful Feature You May Not Know About
-
-A reader should be able to skim headings and understand the overall structure of the document.
 
 ## Logical Organization
 
@@ -129,9 +130,9 @@ Each section should have a clear purpose.
 
 Avoid combining unrelated topics within the same section.
 
-If the discussion shifts significantly, create a new section.
+If the discussion changes significantly, create a new section.
 
-Smaller focused sections are generally easier to maintain and navigate than larger mixed sections.
+Smaller focused sections are generally easier to navigate and maintain than larger mixed sections.
 
 ## Lists
 
@@ -159,9 +160,9 @@ Use tables when information is being compared or referenced.
 Examples include:
 
 * feature comparisons
-* configuration references
 * compatibility information
 * definitions
+* configuration references
 * status information
 
 Avoid tables when prose communicates the information more clearly.
@@ -205,7 +206,6 @@ Consistency should apply to:
 * lists
 * tables
 * examples
-* metadata
 
 Readers should not need to learn new formatting conventions while reading the same document.
 
@@ -215,14 +215,12 @@ Documentation often exists in multiple forms.
 
 Examples include:
 
-* Markdown source files
+* source documents
 * HTML articles
 * wiki pages
 * CMS content
 * PDFs
 * generated documentation
-
-The source document is the authoritative version.
 
 Published versions should preserve:
 
@@ -235,78 +233,6 @@ Formatting may differ.
 
 Content should not.
 
-## Metadata
-
-Metadata is optional.
-
-Use metadata only when it provides meaningful value.
-
-Common uses include:
-
-* content management
-* static site generation
-* knowledge management
-* publishing workflows
-* AI-assisted systems
-
-Not all documentation requires metadata.
-
-When metadata is used:
-
-* use a consistent schema
-* use consistent field names
-* use consistent formatting
-* avoid unnecessary variation
-
-## YAML Front Matter
-
-YAML front matter is a source-document convention.
-
-It is commonly used in:
-
-* Markdown repositories
-* documentation systems
-* publishing workflows
-* static site generators
-
-Do not assume all documentation requires YAML front matter.
-
-When YAML front matter is used:
-
-* maintain a consistent schema
-* maintain consistent field names
-* prioritize readability
-* prioritize compatibility
-
-### Arrays
-
-Use flow-style arrays.
-
-Preferred:
-
-```yaml
-tags: [documentation, standards, formatting]
-```
-
-Preferred:
-
-```yaml
-use_for: [documentation, ai_guidance]
-```
-
-Avoid block-style arrays.
-
-```yaml
-tags:
-  - documentation
-  - standards
-  - formatting
-```
-
-While block-style arrays are valid YAML, some tooling and publishing workflows may not process them consistently.
-
-For compatibility and consistency, use flow-style arrays throughout documentation metadata.
-
 ## HTML Publishing Standards
 
 Published HTML documents should remain structurally similar to their source documents.
@@ -316,28 +242,28 @@ Preserve:
 * heading hierarchy
 * organization
 * terminology
-* overall document flow
+* document flow
 
-HTML should enhance readability, not change the meaning of the content.
+HTML should improve readability, not change meaning.
 
 ### Bootstrap Usage
 
-Bootstrap may be used to improve presentation and readability.
+Bootstrap may be used to improve readability and presentation, when available.
 
 Appropriate uses include:
 
 * alerts
 * responsive tables
+* responsive images
 * typography improvements
 * spacing utilities
-* responsive images
 
 Examples:
 
-* Warnings may use warning alerts.
-* Important notes may use informational alerts.
+* Warnings may use Bootstrap warning alerts.
+* Important notes may use Bootstrap informational alerts.
 * Tables may use Bootstrap table classes.
-* Images may use responsive image classes.
+* Images may use Bootstrap responsive image classes.
 
 ### Use Styling Sparingly
 
@@ -350,15 +276,13 @@ Avoid:
 * excessive nesting
 * unnecessary visual complexity
 
-Readers should focus on the information being presented.
+The reader's attention should remain focused on the content.
 
 The content is more important than the styling.
 
 ## AI-Friendly Documentation
 
-Documentation may be consumed by both humans and AI systems.
-
-Well-structured documentation benefits both.
+Well-structured documentation benefits both humans and AI systems.
 
 Practices that improve AI interpretation often improve human readability:
 
@@ -366,7 +290,6 @@ Practices that improve AI interpretation often improve human readability:
 * consistent terminology
 * logical organization
 * descriptive section names
-* structured metadata
 
 Documentation should not be written exclusively for AI systems, but it should not unnecessarily hinder them.
 
