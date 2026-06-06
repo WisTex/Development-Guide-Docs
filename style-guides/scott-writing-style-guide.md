@@ -1,7 +1,7 @@
 ---
 title: "Scott's Writing Style Guide"
 slug: "scott-writing-style-guide"
-version: "1.0"
+version: "2.0"
 status: "draft"
 author: "Scott M. Stolz"
 license: "MIT"
@@ -26,7 +26,7 @@ tags: [writing, style-guide, documentation]
 
 # Scott's Writing Style Guide
 
-Version 1.0
+Version 2.0
 
 ## Purpose
 
@@ -263,6 +263,85 @@ Whenever practical, explain:
 * practical consequences
 
 Readers should understand both what something is and why they should care.
+
+## Use Examples to Build Understanding
+
+Concepts are easier to understand when connected to concrete examples.
+
+When introducing a new idea, consider whether a practical example, comparison, or analogy would help readers understand it more quickly.
+
+Examples should clarify the concept, not distract from it.
+
+Prefer examples that:
+
+* reflect real-world usage
+* match the audience's experience
+* illustrate practical implications
+* reduce ambiguity
+
+A well-chosen example often communicates more effectively than several paragraphs of explanation.
+
+Use examples to improve understanding, not to fill space.
+
+## Distinguish Related Concepts
+
+Many misunderstandings occur because related concepts are treated as identical.
+
+When two concepts are commonly confused, explain both the relationship and the distinction.
+
+Examples include:
+
+* ownership vs authorship
+* account vs identity
+* authentication vs authorization
+* protocol vs application
+* website vs community
+
+Readers should leave with a clearer understanding of where concepts overlap and where they differ.
+
+Clarifying distinctions often provides more value than introducing additional concepts.
+
+## Define Before Debating
+
+Before discussing benefits, drawbacks, comparisons, or opinions, establish a clear definition of the subject.
+
+Whenever practical, follow this progression:
+
+1. What it is
+2. How it works
+3. Why it exists
+4. Benefits
+5. Limitations
+6. Comparisons and alternatives
+
+Readers cannot meaningfully evaluate something they do not yet understand.
+
+Definitions should come before debates.
+
+Understanding should come before conclusions.
+
+## Teach Decision-Making, Not Just Facts
+
+Information is useful.
+
+Judgment is more useful.
+
+Whenever practical, help readers understand:
+
+* when a solution is appropriate
+* when it may not be appropriate
+* relevant tradeoffs
+* practical consequences
+* factors that influence the decision
+
+The goal is not merely to transfer information.
+
+The goal is to help readers make informed decisions.
+
+Facts explain what something is.
+
+Context and tradeoffs help readers determine what to do with that knowledge.
+
 
 ## Professional But Human
 
