@@ -1,6 +1,6 @@
-# WisTex Database & Variable Naming Standard
+# WisTex Data Model & Variable Naming Standard
 
-Version: 1.0
+Version: 1.0.1
 
 ## Purpose
 
@@ -14,7 +14,7 @@ Code is read far more often than it is written. Clear names reduce mistakes, imp
 
 ---
 
-# Core Principle
+## Core Principle
 
 Use real words.
 
@@ -44,7 +44,7 @@ A developer should be able to understand what a field contains simply by reading
 
 ---
 
-# Table Naming
+## Table Naming
 
 Tables represent collections of records.
 
@@ -82,7 +82,7 @@ Contacts
 
 ---
 
-# Field Naming
+## Field Naming
 
 Fields represent a single piece of information stored within a record.
 
@@ -107,7 +107,7 @@ The field name should make sense even if it appears outside the context of the t
 
 ---
 
-# Primary Keys
+## Primary Keys
 
 The primary key of a table should use:
 
@@ -137,7 +137,7 @@ The field itself should identify what it represents.
 
 ---
 
-# Foreign Keys
+## Foreign Keys
 
 If a field contains the ID of another record, the field name must end with:
 
@@ -164,7 +164,7 @@ Reading the name should immediately tell the developer:
 
 ---
 
-# Self-Referencing Records
+## Self-Referencing Records
 
 Some records may point to another record in the same table.
 
@@ -180,7 +180,7 @@ The fact that both records exist in the same table does not change the naming co
 
 ---
 
-# PHP Variables
+## PHP Variables
 
 PHP variables should generally use singular names because they represent one value.
 
@@ -213,7 +213,7 @@ $TaskUrgency
 
 ---
 
-# Arrays and Database Records
+## Arrays and Database Records
 
 Array keys should match the database field names whenever practical.
 
@@ -244,7 +244,23 @@ because it disconnects the PHP code from the database schema.
 
 ---
 
-# Collections vs Records
+## JSON and API Fields
+
+JSON fields and API fields should follow the same naming conventions used by the data model.
+
+Examples:
+
+TaskID
+TaskProjectID
+TaskPriority
+
+Avoid creating separate naming conventions for APIs or JSON payloads.
+
+The same entity should use the same field names in the database, PHP, arrays, and APIs whenever practical.
+
+---
+
+## Collections vs Records
 
 Collections should use plural names.
 
@@ -277,23 +293,7 @@ This reads naturally and clearly identifies the difference between the collectio
 
 ---
 
-## JSON and API Fields
-
-JSON fields and API fields should follow the same naming conventions used by the data model.
-
-Examples:
-
-TaskID
-TaskProjectID
-TaskPriority
-
-Avoid creating separate naming conventions for APIs or JSON payloads.
-
-The same entity should use the same field names in the database, PHP, arrays, and APIs whenever practical.
-
----
-
-# Consistency Over Brevity
+## Consistency Over Brevity
 
 Saving a few characters is not worth reducing clarity.
 
