@@ -132,6 +132,13 @@ LicenseKey
 
 Do not use ID for values that are not functioning as record identifiers.
 
+ID     = identifier of an entity or record
+Code   = business code
+Slug   = URL-friendly identifier
+Hash   = cryptographic or generated hash
+Token  = authentication/authorization token
+Key    = external or system-defined key
+
 ---
 
 ## Primary Keys
