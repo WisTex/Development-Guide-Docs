@@ -1,3 +1,42 @@
+---
+
+title: "WisTex Data Model & Variable Naming Standard"
+slug: "data-model-variable-naming-standard"
+summary: "Defines naming conventions for tables, fields, identifiers, variables, arrays, JSON payloads, and APIs used in WisTex software projects."
+
+version: "2.0.1"
+status: "active"
+type: "reference"
+
+copyright: "WisTex TechSero Ltd. Co."
+license: "All Rights Reserved"
+
+classification: "public"
+distribution: "public"
+
+created: "2026-06-16"
+updated: "2026-06-16"
+
+authorship:
+  concepts: "Scott M. Stolz"
+  structure: "Scott M. Stolz"
+  drafting: "AI-assisted"
+  editing: "Scott M. Stolz"
+  approval: "Scott M. Stolz"
+
+use_for: [development, naming, database_design, php, api_design, ai_context]
+
+related:
+  - "yaml-metadata-specification.md"
+
+tags: [naming, standards, database, php, api, json, development]
+
+disclosure_line: >-
+  Drafted with AI assistance. Concepts, structure, and editing by Scott M. Stolz.
+
+---
+
+
 # WisTex Data Model & Variable Naming Standard
 
 Version: 2.0
