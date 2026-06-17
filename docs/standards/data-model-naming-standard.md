@@ -1,6 +1,6 @@
 # WisTex Data Model & Variable Naming Standard
 
-Version: 1.0.1
+Version: 1.1
 
 ## Purpose
 
@@ -314,3 +314,11 @@ when the additional context improves understanding.
 The objective is not to create the shortest possible code.
 
 The objective is to create code that remains understandable years later.
+
+## Legacy Systems
+
+Existing applications may contain legacy field names that predate this standard.
+
+New development should follow this standard whenever practical.
+
+Legacy names should not be used as justification for introducing additional inconsistencies.
