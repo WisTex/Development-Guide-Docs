@@ -1,8 +1,12 @@
 # WisTex Data Model & Variable Naming Standard
 
-Version: 1.2
+Version: 2.0
 
-## Purpose
+---
+
+## Purpose & Philosophy
+
+### Purpose
 
 This standard defines how tables, fields, variables, and identifiers should be named.
 
@@ -12,9 +16,7 @@ The goal is simple:
 
 Code is read far more often than it is written. Clear names reduce mistakes, improve maintainability, and make the system easier for both humans and AI to understand.
 
----
-
-## Core Principle
+### Core Principle
 
 Use real words.
 
@@ -44,7 +46,10 @@ A developer should be able to understand what a field contains simply by reading
 
 ---
 
-## Table Naming
+## Naming Rules
+
+
+### Table Naming
 
 Tables represent collections of records.
 
@@ -80,9 +85,7 @@ Accounts
 Contacts
 ```
 
----
-
-## Field Naming
+### Field Naming
 
 Fields represent a single piece of information stored within a record.
 
@@ -105,45 +108,64 @@ TaskUpdated
 
 The field name should make sense even if it appears outside the context of the table.
 
----
-
 ### Identifiers vs Other Unique Values
 
-Use ID when the value identifies a specific record or entity.
+Use ID when the value serves as the identifier of a specific record or entity.
 
 Examples:
 
+```
 TaskID
 ProjectID
 ProviderID
 ExternalUserID
+```
 
 In WisTex-owned systems, IDs are typically integer values. External systems may use other formats.
 
-Use Code, Slug, Hash, Token, or Key when those terms more accurately describe the value.
+Use Code, Slug, Hash, Token, Key, Email, Address, or other descriptive terms when they more accurately describe the value.
 
 Examples:
 
+```
 ProductCode
 ArticleSlug
 FileHash
 ApiToken
 LicenseKey
+```
 
-Do not use ID for values that are not functioning as record identifiers.
+Do not use ID merely because a value is unique.
 
-ID     = identifier of an entity or record
-Code   = business code
-Slug   = URL-friendly identifier
-Hash   = cryptographic or generated hash
-Token  = authentication/authorization token
-Key    = external or system-defined key
+Field names should describe the data being stored.
 
----
+Examples:
 
-## Primary Keys
+```
+UserEmail
+Username
+DomainName
+ProductCode
+```
 
-The primary key of a table should use:
+remain appropriate even when uniqueness constraints exist.
+
+An email address, username, or domain name may uniquely identify a record, but the field still contains an email address, username, or domain name.
+
+| Term           | Meaning                                    |
+| -------------- | ------------------------------------------ |
+| ID             | Identifier of an entity or record          |
+| Code           | Business code                              |
+| Slug           | URL-friendly identifier                    |
+| Hash           | Cryptographic or generated hash            |
+| Token          | Authentication or authorization token      |
+| Key            | External or system-defined key             |
+| Email          | Email address (user@example.com)           |
+| Address        | Address or account address within a system |
+
+### Primary Keys
+
+The primary key of a table should normally use:
 
 ```text
 <Entity>Name + ID
@@ -169,11 +191,9 @@ Key
 
 The field itself should identify what it represents.
 
----
+### Foreign Keys
 
-## Foreign Keys
-
-If a field contains the ID of another record, the field name must end with:
+If a field contains the identifier of another record or entity, the field name should normally end with:
 
 ```text
 ID
@@ -196,9 +216,7 @@ Reading the name should immediately tell the developer:
 1. This field contains an ID.
 2. What entity the ID refers to.
 
----
-
-## Self-Referencing Records
+### Self-Referencing Records
 
 Some records may point to another record in the same table.
 
@@ -212,9 +230,7 @@ This field contains the TaskID of another task.
 
 The fact that both records exist in the same table does not change the naming convention.
 
----
-
-## PHP Variables
+### PHP Variables
 
 PHP variables should generally use singular names because they represent one value.
 
@@ -245,9 +261,7 @@ $TaskPriority
 $TaskUrgency
 ```
 
----
-
-## Arrays and Database Records
+### Arrays and Database Records
 
 Array keys should match the database field names whenever practical.
 
@@ -276,27 +290,25 @@ $Task['Urgency']
 
 because it disconnects the PHP code from the database schema.
 
----
-
-## JSON and API Fields
+### JSON and API Fields
 
 For CRUD-style APIs, JSON fields and API fields should normally follow the same naming conventions used by the data model.
 
 Examples:
 
+```
 TaskID
 TaskProjectID
 TaskPriority
+```
 
 Using the same field names across the database, PHP, arrays, JSON, and APIs reduces translation layers and improves consistency.
 
 Specialized APIs may intentionally use different field names when presenting a simplified, aggregated, transformed, or external-facing model.
 
-When API names differ from internal field names, the mapping should be documented.
+When API names differ from internal field names, the mapping should be documented and consistent.
 
----
-
-## Collections vs Records
+### Collections vs Records
 
 Collections should use plural names.
 
@@ -329,7 +341,9 @@ This reads naturally and clearly identifies the difference between the collectio
 
 ---
 
-## Consistency Over Brevity
+## Special Considerations
+
+### Consistency Over Brevity
 
 Saving a few characters is not worth reducing clarity.
 
@@ -351,10 +365,20 @@ The objective is not to create the shortest possible code.
 
 The objective is to create code that remains understandable years later.
 
-## Legacy Systems
+### Legacy Systems
 
 Existing applications may contain legacy field names that predate this standard.
 
 New development should follow this standard whenever practical.
 
 Legacy names should not be used as justification for introducing additional inconsistencies.
+
+When major rewrites occur, legacy naming should be evaluated for alignment with the current standard.
+
+---
+
+## Guiding Principle
+
+The same entity should use the same name throughout the system whenever practical.
+
+Database fields, variables, arrays, JSON payloads, APIs, and documentation should all reinforce the same data model rather than introducing alternate naming conventions.
