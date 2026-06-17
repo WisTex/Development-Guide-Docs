@@ -1,6 +1,6 @@
 # WisTex Data Model & Variable Naming Standard
 
-Version: 1.1
+Version: 1.2
 
 ## Purpose
 
@@ -104,6 +104,33 @@ TaskUpdated
 ```
 
 The field name should make sense even if it appears outside the context of the table.
+
+---
+
+### Identifiers vs Other Unique Values
+
+Use ID when the value identifies a specific record or entity.
+
+Examples:
+
+TaskID
+ProjectID
+ProviderID
+ExternalUserID
+
+In WisTex-owned systems, IDs are typically integer values. External systems may use other formats.
+
+Use Code, Slug, Hash, Token, or Key when those terms more accurately describe the value.
+
+Examples:
+
+ProductCode
+ArticleSlug
+FileHash
+ApiToken
+LicenseKey
+
+Do not use ID for values that are not functioning as record identifiers.
 
 ---
 
@@ -246,7 +273,7 @@ because it disconnects the PHP code from the database schema.
 
 ## JSON and API Fields
 
-JSON fields and API fields should follow the same naming conventions used by the data model.
+For CRUD-style APIs, JSON fields and API fields should normally follow the same naming conventions used by the data model.
 
 Examples:
 
@@ -254,9 +281,11 @@ TaskID
 TaskProjectID
 TaskPriority
 
-Avoid creating separate naming conventions for APIs or JSON payloads.
+Using the same field names across the database, PHP, arrays, JSON, and APIs reduces translation layers and improves consistency.
 
-The same entity should use the same field names in the database, PHP, arrays, and APIs whenever practical.
+Specialized APIs may intentionally use different field names when presenting a simplified, aggregated, transformed, or external-facing model.
+
+When API names differ from internal field names, the mapping should be documented.
 
 ---
 
